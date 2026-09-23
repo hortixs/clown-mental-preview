@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Agenda · Clown & Mental</title>
+  <meta name="description" content="Les prochaines représentations de Resto Dingo et les bords de plateau de l’association Clown & Mental.">
+  <link rel="canonical" href="https://TODO-nom-de-domaine.fr/agenda.html">
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="fr_FR">
+  <meta property="og:site_name" content="Clown &amp; Mental">
+  <meta property="og:title" content="Agenda · Clown & Mental">
+  <meta property="og:description" content="Les prochaines représentations de Resto Dingo et les bords de plateau de l’association Clown & Mental.">
+  <meta property="og:image" content="https://TODO-nom-de-domaine.fr/assets/img/logo-rond.png">
+  <meta name="theme-color" content="#00499a">
+  <link rel="icon" type="image/png" href="assets/img/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+  <link rel="preload" href="assets/fonts/jost-latin-wght-normal.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/pages.css">
+  <script src="js/nav.js" defer></script>
+  <script src="js/agenda.js" defer></script>
+</head>
+<body>
+  <a class="lien-evitement" href="#contenu">Aller au contenu</a>
+  <header class="site-header">
+    <a class="logo-menu" href="index.html" aria-label="Clown &amp; Mental, retour à l’accueil">
+      <img src="assets/img/logo-rond.png" alt="" width="530" height="530">
+    </a>
+    <button class="bouton-menu" type="button" aria-expanded="false" aria-controls="menu-principal">
+      <span class="barres" aria-hidden="true"></span><span>Menu</span>
+    </button>
+    <nav class="menu" id="menu-principal" aria-label="Menu principal">
+      <ul>
+        <li><a href="association.html">L’Association</a></li>
+        <li><a href="spectacles.html">Tout savoir sur les spectacles</a></li>
+        <li><a href="organiser.html">Organiser un spectacle</a></li>
+        <li><a href="agenda.html" aria-current="page">Agenda</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main id="contenu">
+    <div class="entete-vague">
+      <svg class="vague deco " viewBox="0 90 1400 280" aria-hidden="true" focusable="false" preserveAspectRatio="xMidYMid slice"><path class="pointilles jaune" d="M -20 215 C 120 180, 230 120, 330 135 C 430 150, 470 245, 560 270 C 680 300, 780 280, 880 245 C 980 210, 1060 230, 1150 260 C 1240 290, 1300 300, 1420 340"/></svg>
+      <h1 class="titre"><span class="fin"><span class="pastille fin-bas">Agenda</span></span></h1>
+    </div>
+
+    <div class="agenda large">
+      <img class="agenda-illu deco" src="assets/illu/plateau-bouteille.png" alt="" width="560" height="469" loading="lazy">
+      <div class="agenda-liste" id="agenda-liste" aria-live="polite">
+        <p class="agenda-etat">Chargement des prochaines dates…</p>
+      </div>
+    </div>
+    <noscript><p class="colonne">Pour connaître nos prochaines dates, écrivez-nous à <a href="mailto:clownetmental@gmail.com">clownetmental@gmail.com</a>.</p></noscript>
+    <div class="appel-contact centre"><span class="trois-points"><a class="bouton bouton-jaune" href="contact.html">Contacter-nous</a></span></div>
+  </main>
+  <footer class="site-footer">
+    <div class="interieur">
+      <a class="marque" href="index.html" style="color:inherit;text-decoration:none">
+        <img src="assets/img/logo-rond.png" alt="" width="54" height="54" loading="lazy">
+        <span>Clown &amp; Mental</span>
+      </a>
+      <nav aria-label="Pied de page">
+        <ul>
+          <li><a href="association.html">L’Association</a></li>
+          <li><a href="spectacles.html">Tout savoir sur les spectacles</a></li>
+          <li><a href="organiser.html">Organiser un spectacle</a></li>
+          <li><a href="agenda.html">Agenda</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="bas">
+        <span>Association Clown &amp; Mental</span>
+        <a href="mailto:clownetmental@gmail.com">clownetmental@gmail.com</a>
+        <a href="mentions-legales.html">Mentions légales</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
